@@ -1,0 +1,18 @@
+<div ng-if="times.length > 0">
+<div class="bar bar-energized">
+  <h3 class="title text-center">SUN EVENTS</h3>
+</div>
+<div class="suntimes">
+<div class="list" style="background-color:black;">
+    <div class="item item-inverse item-text-wrap text-center" ng-repeat="time in times">
+        <h2>{{time.timeFormatted}} {{time.label}}</h2>
+        <p>
+            {{time.desc}} <br>
+            Altitude: {{ time.sunriseAltitude | number:2 }},
+            Azimuth: {{ time.sunriseAzimuth | number:2 }}
+        </p>
+        
+    </div>
+</div>
+</div>
+</div>

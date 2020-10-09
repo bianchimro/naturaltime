@@ -1,0 +1,42 @@
+<div class="">
+    <div class="list">
+        <div class="item item-inverse item-sun">
+        <h2 class="title text-center">The sun</h2>
+        </div>
+
+        <div class="item item-inverse">
+            <h2>Altitude: {{sunPosition.altitude}}</h2>
+        </div>
+        <div class="item item-inverse">
+            <h2>Azimuth: {{sunPosition.azimuth}}</h2>
+        </div>
+    
+        <div class="item item-inverse item-moon">
+        <h2 class="title text-center">The Moon</h2>
+        </div>
+
+        <div class="item item-inverse">
+            <h2>Altitude: {{moonPosition.altitude}}</h2>
+        </div>
+        <div class="item item-inverse">
+            <h2>Azimuth: {{moonPosition.azimuth}}</h2>
+        </div>
+        <div class="item item-inverse">
+            <h2>Distance: {{moonPosition.distance|number:3}} Km</h2>
+        </div>
+        <div class="item item-inverse">
+            <h2>Fraction: {{moonIllumination.fraction|number:3}}</h2>
+        </div>
+        <div class="item item-inverse">
+            <h2>Phase: {{moonIllumination.phase}}</h2>
+        </div>
+        <div class="item item-inverse item-text-wrap">
+            <h2>Angle: {{moonIllumination.angle}}</h2>
+            <p>
+                midpoint angle in radians of the illuminated limb of the moon reckoned eastward from the north point of the disk; the moon is waxing if the angle is negative, and waning if positive
+            </p>
+
+        </div>
+    </div>
+
+</div>

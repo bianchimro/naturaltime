@@ -1,0 +1,14 @@
+{
+  "name": "suncalc",
+  "homepage": "https://github.com/mourner/suncalc",
+  "_release": "0af81a1eba",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0af81a1eba27b2f69c792d9868045763e759f031"
+  },
+  "_source": "https://github.com/mourner/suncalc.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/mourner/suncalc.git",
+  "_direct": true
+}

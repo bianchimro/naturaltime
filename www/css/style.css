@@ -1,0 +1,173 @@
+/* Empty. Add your own CSS if you like */
+html, body, .bb{
+    background-color: #222;
+}
+
+.text-center{
+    text-align: :center;
+}
+
+
+.fixed-panel{
+    position:absolute;
+    top:44px;
+    left:0;
+    right:0;
+    height:200px;
+    background-color: #222;
+}
+
+.scroll-panel{
+    top:254px !important;
+
+}
+
+
+
+.time-card{
+    text-align:center;
+    height:90px;
+}
+
+.time-card .clock{
+    color:white;
+    font-size:36px;
+    line-height: 40px;
+}
+
+.time-card .time{
+    color:white;
+    font-size:18px;
+    line-height: 24px;
+}
+
+
+
+.location-card{
+    height:120px;
+    background:#222;
+    text-align:center;
+}
+
+.location-card .coords{
+    color:white;
+    font-size:14px;
+}
+
+.location-card .place{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    line-height: 20px;
+    margin-bottom:15px;
+}
+
+.item-suncalc{
+    padding-left:70px;
+    padding-right:70px;
+    min-height: 70px;
+}
+
+.item-suncalc .item-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 4px;
+    
+}
+
+
+.item-suncalc .item-time {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 4px;
+    
+}
+
+.suntimes{
+    top:44px;
+    position:relative;
+}
+
+.sunchart{
+    
+    background-color: #222;
+    border-top:#555 solid 1px;
+    
+
+}
+
+.time-chart{
+    width:100%;
+    height:800px;
+    background-color: #000;
+}
+
+.axis{}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 16px;
+    fill: #666;
+}
+
+
+.line-mark{
+    stroke:#666;
+    stroke-width:1;
+}
+
+.current-time{
+    stroke:deeppink;
+    stroke-width:3;
+    opacity: 0.4;
+}
+
+
+.item-animate {
+    transition: all 0.5s linear;
+}
+
+
+.item-animate.ng-leave-active {
+  opacity:0;
+  
+}
+
+
+.item-animate.ng-enter-active {
+    opacity: 1;
+}
+
+.item-inverse{
+    background-color: #222;
+    color:#eee;
+    border-color:black;
+}
+
+.item-inverse h2{
+    
+    color:#eee;
+    
+}
+
+.item-sun{
+    border-bottom:solid 4px #f0b840;
+}
+
+.item-moon{
+    border-bottom:solid 4px #4a87ee;
+}
+
